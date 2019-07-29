@@ -1,0 +1,28 @@
+{
+  "name": "teamcommunism",
+  "version": "1.0.0",
+  "description": "Some communist stuff",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BraydenGray416/TeamCommunism.git"
+  },
+  "author": "Simon and Brayden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BraydenGray416/TeamCommunism/issues"
+  },
+  "homepage": "https://github.com/BraydenGray416/TeamCommunism#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify-es": "^3.3.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
