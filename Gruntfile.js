@@ -33,14 +33,15 @@ module.exports = function(grunt) {
 			}
 		},
 		watch: {
-			sass: {
+			indexSass: {
 				files: ['scss/*.scss'],
-				tasks: ['sass', 'cssmin']
+				tasks: ['sass', 'cssmin'],
 			},
-			jshint: {
+			indexJs: {
 				files: ['js/*.js', '!js/*.min.js'],
 				tasks: ['jshint', 'uglify']
 			}
+
 		}
 	});
 
